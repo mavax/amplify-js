@@ -209,7 +209,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **@aws-amplify/interactions @aws-amplify/react @aws-amplify/react-native @aws-amplify/angular @aws-amplify/vue:** Update interactions to include voice ([#2121](https://github.com/aws-amplify/amplify-js/issues/2121)) ([938d2a5](https://github.com/aws-amplify/amplify-js/commit/938d2a5))
+* **@moixa-energy/interactions @aws-amplify/react @aws-amplify/react-native @aws-amplify/angular @aws-amplify/vue:** Update interactions to include voice ([#2121](https://github.com/aws-amplify/amplify-js/issues/2121)) ([938d2a5](https://github.com/aws-amplify/amplify-js/commit/938d2a5))
 
 
 

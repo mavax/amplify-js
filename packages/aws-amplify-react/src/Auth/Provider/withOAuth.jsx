@@ -14,10 +14,10 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 import AmplifyTheme from '../../Amplify-UI/Amplify-UI-Theme';
-import { oAuthSignInButton } from '@aws-amplify/ui';
+import { oAuthSignInButton } from '@moixa-energy/ui';
 import { 
     SignInButton, 
     SignInButtonContent
@@ -35,7 +35,7 @@ export default function withOAuth(Comp, options) {
 
         signIn() {
             if (!Auth || typeof Auth.configure !== 'function') {
-                throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+                throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
             }
 
             const { oauth={} } = Auth.configure();

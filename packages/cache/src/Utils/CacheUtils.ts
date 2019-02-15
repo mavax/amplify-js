@@ -12,7 +12,7 @@
  */
 
 import { CacheConfig, CacheItem, CacheItemOptions } from '../types';
-import { StorageHelper } from '@aws-amplify/core';
+import { StorageHelper } from '@moixa-energy/core';
 /**
 * Default cache config
 */

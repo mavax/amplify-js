@@ -5,7 +5,7 @@ jest.mock('../../src/Storage/Common', () => {
 
     return { calcKey };
 });
-import Storage from '@aws-amplify/storage';
+import Storage from '@moixa-energy/storage';
 import S3Text from '../../src/Storage/S3Text';
 import { calcKey } from '../../src/Storage/Common';
 import { TextPicker } from '../../src/Widget';

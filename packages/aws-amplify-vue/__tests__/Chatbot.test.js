@@ -1,7 +1,7 @@
 /* eslint-disable */
 import Vue from 'vue';
 import { shallowMount, mount } from '@vue/test-utils';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import Chatbot from '../src/components/interactions/Chatbot.vue';
 import AmplifyEventBus from '../src/events/AmplifyEventBus';
 import AmplifyPlugin from '../src/plugins/AmplifyPlugin';

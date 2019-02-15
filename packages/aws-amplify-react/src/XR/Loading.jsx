@@ -11,7 +11,7 @@
  * and limitations under the License.
  */
 import * as React from 'react';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 
 const Loading = (props) => {
   return (

@@ -1,4 +1,4 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import VerifyContact from '../../src/Auth/VerifyContact';
 import * as React from 'react';
 import AmplifyTheme from '../../src/AmplifyTheme';

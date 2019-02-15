@@ -17,7 +17,7 @@ import {
     Hub,
     Parser,
     Platform
-} from '@aws-amplify/core';
+} from '@moixa-energy/core';
 import AWSPinpointProvider from './Providers/AWSPinpointProvider';
 
 import { AnalyticsProvider, EventAttributes, EventMetrics, pageViewTrackOpts } from './types';

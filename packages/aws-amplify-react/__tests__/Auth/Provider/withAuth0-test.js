@@ -1,4 +1,4 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import React, { Component } from 'react';
 import withAuth0, { Auth0Button } from '../../../src/Auth/Provider/withAuth0';
 import { SignInButton, Button } from '../../../src/AmplifyUI';

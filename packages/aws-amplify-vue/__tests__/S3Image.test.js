@@ -1,7 +1,7 @@
 /* eslint-disable */
 import Vue from 'vue';
 import { shallowMount, mount } from '@vue/test-utils';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import S3Image from '../src/components/storage/S3Image.vue';
 import * as components from '../src/components';
 import AmplifyEventBus from '../src/events/AmplifyEventBus';

@@ -14,11 +14,11 @@
  import * as React from 'react';
  import { Component } from 'react';
 
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 import AmplifyTheme from '../../Amplify-UI/Amplify-UI-Theme';
 // import auth0 from 'auth0-js';
-import { auth0SignInButton } from '@aws-amplify/ui';
+import { auth0SignInButton } from '@moixa-energy/ui';
 import {
     SignInButton,
     SignInButtonIcon,

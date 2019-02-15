@@ -66,9 +66,9 @@
 </template>
 
 <script>
-// import Auth from '@aws-amplify/auth';
+// import Auth from '@moixa-energy/auth';
 import AmplifyEventBus from '../../events/AmplifyEventBus';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import QrcodeVue from 'qrcode.vue';
 
 

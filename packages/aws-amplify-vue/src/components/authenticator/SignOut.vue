@@ -25,7 +25,7 @@
 
 <script>
 import AmplifyEventBus from '../../events/AmplifyEventBus';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import { existsSync } from 'fs';
 
 export default {

@@ -18,11 +18,11 @@ import {
     Signer,
     JS,
     Hub
-} from '@aws-amplify/core';
+} from '@moixa-energy/core';
 import * as MobileAnalytics from 'aws-sdk/clients/mobileanalytics';
 import * as Pinpoint from 'aws-sdk/clients/pinpoint';
 
-import Cache from '@aws-amplify/cache';
+import Cache from '@moixa-energy/cache';
 
 import { AnalyticsProvider } from '../types';
 import { v1 as uuid } from 'uuid';

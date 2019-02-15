@@ -14,10 +14,10 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 import AmplifyTheme from '../../Amplify-UI/Amplify-UI-Theme';
-import { facebookSignInButton } from '@aws-amplify/ui';
+import { facebookSignInButton } from '@moixa-energy/ui';
 import { 
     SignInButton,
     SignInButtonIcon,
@@ -92,7 +92,7 @@ export default function withFacebook(Comp) {
                 if (!Auth || 
                     typeof Auth.federatedSignIn !== 'function' || 
                     typeof Auth.currentAuthenticatedUser !== 'function') {
-                    throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+                    throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
                 }
                 
                 Auth.federatedSignIn('facebook', { token: accessToken, expires_at }, user)

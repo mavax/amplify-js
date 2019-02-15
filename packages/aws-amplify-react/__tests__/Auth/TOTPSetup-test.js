@@ -1,4 +1,4 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import TOTPSetup from '../../src/Auth/TOTPSetup';
 import * as React from 'react';
 import AmplifyTheme from '../../src/AmplifyTheme';

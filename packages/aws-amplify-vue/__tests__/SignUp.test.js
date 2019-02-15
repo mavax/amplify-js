@@ -1,7 +1,7 @@
 /* eslint-disable */
 import Vue from 'vue';
 import { shallowMount } from '@vue/test-utils';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import SignUp from '../src/components/authenticator/SignUp.vue';
 import countries from '../src/assets/countries';
 import AmplifyPlugin from '../src/plugins/AmplifyPlugin';

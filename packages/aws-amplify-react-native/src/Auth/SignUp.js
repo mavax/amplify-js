@@ -158,7 +158,7 @@ export default class SignUp extends AuthPiece {
           return this.error(`The following fields need to be filled out: ${validation.join(', ')}`);
         }
         if (!Auth || typeof Auth.signUp !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         let signup_info = {

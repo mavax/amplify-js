@@ -15,7 +15,7 @@
 
 import { Component, Input, Output, EventEmitter, OnInit, ChangeDetectorRef } from '@angular/core';
 import { AmplifyService } from '../../../providers/amplify.service';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 import { isUndefined } from 'util';
 require('./aws-lex-audio.js')
 

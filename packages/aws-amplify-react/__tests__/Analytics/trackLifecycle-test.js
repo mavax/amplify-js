@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Component } from 'react';
-import Analytics from '@aws-amplify/analytics';
+import Analytics from '@moixa-energy/analytics';
 import { trackLifecycle } from '../../src/Analytics/trackLifecycle';
 
 describe('trackLifecycle test', () => {

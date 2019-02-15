@@ -13,7 +13,7 @@
 // import '../Common/Polyfills';
 import * as Observable from 'zen-observable';
 
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 import { PubSubProvider, PubSubOptions, ProvidertOptions } from './types';
 import { AWSAppSyncProvider } from './Providers';
 

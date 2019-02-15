@@ -12,7 +12,7 @@
  */
 
 import * as React from 'react';
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
 
 
 import AuthPiece from './AuthPiece';

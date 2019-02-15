@@ -40,10 +40,10 @@ jest.mock('uuid', () => {
     return { v1: mockfn };
 })
 
-import { AWS, JS, Credentials, ClientDevice } from '@aws-amplify/core';
+import { AWS, JS, Credentials, ClientDevice } from '@moixa-energy/core';
 import AnalyticsProvider from "../../src/Providers/AWSPinpointProvider";
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
-import Cache from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
+import Cache from '@moixa-energy/core';
 import * as MobileAnalytics from 'aws-sdk/clients/mobileanalytics';
 import * as Pinpoint from 'aws-sdk/clients/pinpoint';
 

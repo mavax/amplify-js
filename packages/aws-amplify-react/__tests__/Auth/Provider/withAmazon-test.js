@@ -1,9 +1,9 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import * as React from 'react';
 import { Component } from 'react';
 import withAmazon, { AmazonButton } from '../../../src/Auth/Provider/withAmazon';
 import { SignInButton, Button } from '../../../src/AmplifyUI';
-import { Logger } from '@aws-amplify/core';
+import { Logger } from '@moixa-energy/core';
 
 
 describe('withAmazon test', () => {

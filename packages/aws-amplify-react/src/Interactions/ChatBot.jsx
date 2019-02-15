@@ -3,10 +3,10 @@ import { Component } from 'react';
 import { Container, FormSection, SectionHeader, SectionBody, SectionFooter } from "../AmplifyUI";
 import { Input, Button } from "../AmplifyTheme";
 
-import { I18n } from '@aws-amplify/core';
-import Interactions from '@aws-amplify/interactions';
+import { I18n } from '@moixa-energy/core';
+import Interactions from '@moixa-energy/interactions';
 import regeneratorRuntime from 'regenerator-runtime/runtime';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 const logger = new Logger('ChatBot');
 
@@ -143,7 +143,7 @@ export class ChatBot extends Component {
 
     async lexResponseHandler() {
         if (!Interactions || typeof Interactions.send !== 'function') {
-            throw new Error('No Interactions module found, please ensure @aws-amplify/interactions is imported');
+            throw new Error('No Interactions module found, please ensure @moixa-energy/interactions is imported');
         }
         if (!this.state.continueConversation) {
             return;
@@ -249,7 +249,7 @@ export class ChatBot extends Component {
         }, resolve));
 
         if (!Interactions || typeof Interactions.send !== 'function') {
-            throw new Error('No Interactions module found, please ensure @aws-amplify/interactions is imported');
+            throw new Error('No Interactions module found, please ensure @moixa-energy/interactions is imported');
         }
 
         const response = await Interactions.send(this.props.botName, this.state.inputText);
@@ -289,7 +289,7 @@ export class ChatBot extends Component {
 
         if(onComplete && botName) {
             if (!Interactions || typeof Interactions.onComplete !== 'function') {
-                throw new Error('No Interactions module found, please ensure @aws-amplify/interactions is imported');
+                throw new Error('No Interactions module found, please ensure @moixa-energy/interactions is imported');
             }
             Interactions.onComplete(botName, this.getOnComplete(onComplete, this));
         }
@@ -300,7 +300,7 @@ export class ChatBot extends Component {
 
         if (botName && this.props.onComplete !== prevProps.onComplete) {
             if (!Interactions || typeof Interactions.onComplete !== 'function') {
-                throw new Error('No Interactions module found, please ensure @aws-amplify/interactions is imported');
+                throw new Error('No Interactions module found, please ensure @moixa-energy/interactions is imported');
             }
             Interactions.onComplete(botName, this.getOnComplete(onComplete, this));
         }

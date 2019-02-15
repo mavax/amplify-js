@@ -13,7 +13,7 @@
 
 import * as React from 'react';
 
-import { JS } from '@aws-amplify/core';
+import { JS } from '@moixa-energy/core';
 
 import AmplifyTheme from './AmplifyTheme';
 

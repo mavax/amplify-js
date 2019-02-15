@@ -11,7 +11,7 @@
  * and limitations under the License.
  */
 import { MqttOverWSProvider } from './MqttOverWSProvider';
-import { Signer, Credentials } from '@aws-amplify/core';
+import { Signer, Credentials } from '@moixa-energy/core';
 
 const SERVICE_NAME = 'iotdevicegateway';
 

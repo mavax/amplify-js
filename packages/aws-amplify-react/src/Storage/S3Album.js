@@ -14,8 +14,8 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import { ClientDevice, JS, ConsoleLogger as Logger, Hub } from '@aws-amplify/core';
-import Storage from '@aws-amplify/storage';
+import { ClientDevice, JS, ConsoleLogger as Logger, Hub } from '@moixa-energy/core';
+import Storage from '@moixa-energy/storage';
 
 import Picker from '../Widget/Picker';
 import AmplifyTheme from '../AmplifyTheme';
@@ -77,7 +77,7 @@ export default class S3Album extends Component {
         const { file, name, size, type } = data;
         const key = path + this.getKey(data);
         if (!Storage || typeof Storage.put !== 'function') {
-            throw new Error('No Storage module found, please ensure @aws-amplify/storage is imported');
+            throw new Error('No Storage module found, please ensure @moixa-energy/storage is imported');
         }
 
         Storage.put(key, file, {
@@ -149,7 +149,7 @@ export default class S3Album extends Component {
         const { path, level, track, identityId } = this.props;
         logger.debug('Album path: ' + path);
         if (!Storage || typeof Storage.list !== 'function') {
-            throw new Error('No Storage module found, please ensure @aws-amplify/storage is imported');
+            throw new Error('No Storage module found, please ensure @moixa-energy/storage is imported');
         }
         return Storage.list(path, { level: level? level : 'public', track, identityId })
             .then(data => {

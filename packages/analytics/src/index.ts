@@ -19,7 +19,7 @@ import Amplify, {
     Hub,
     Linking,
     Platform
-} from '@aws-amplify/core';
+} from '@moixa-energy/core';
 
 const logger = new Logger('Analytics');
 let endpointUpdated = false;

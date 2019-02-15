@@ -93,7 +93,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **@aws-amplify/interactions @aws-amplify/react @aws-amplify/react-native @aws-amplify/angular @aws-amplify/vue:** Update interactions to include voice ([#2121](https://github.com/aws/aws-amplify/issues/2121)) ([938d2a5](https://github.com/aws/aws-amplify/commit/938d2a5))
+* **@moixa-energy/interactions @aws-amplify/react @aws-amplify/react-native @aws-amplify/angular @aws-amplify/vue:** Update interactions to include voice ([#2121](https://github.com/aws/aws-amplify/issues/2121)) ([938d2a5](https://github.com/aws/aws-amplify/commit/938d2a5))
 
 
 
@@ -837,7 +837,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **@aws-amplify/auth:** currentAuthenticatedUser throws error when the user is disabled/deleted ([1b09e2f](https://github.com/aws/aws-amplify/commit/1b09e2f))
+* **@moixa-energy/auth:** currentAuthenticatedUser throws error when the user is disabled/deleted ([1b09e2f](https://github.com/aws/aws-amplify/commit/1b09e2f))
 
 
 

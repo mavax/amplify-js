@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 
-import { I18n, ConsoleLogger as Logger, JS } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger, JS } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AuthPiece from './AuthPiece';
 import {
@@ -47,7 +47,7 @@ export default class ConfirmSignIn extends AuthPiece {
 
     checkContact(user) {
         if (!Auth || typeof Auth.verifiedContact !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         Auth.verifiedContact(user)
@@ -66,7 +66,7 @@ export default class ConfirmSignIn extends AuthPiece {
         const { code } = this.inputs;
         const mfaType = user.challengeName === 'SOFTWARE_TOKEN_MFA' ? 'SOFTWARE_TOKEN_MFA' : null;
         if (!Auth || typeof Auth.confirmSignIn !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         Auth.confirmSignIn(user, code, mfaType)

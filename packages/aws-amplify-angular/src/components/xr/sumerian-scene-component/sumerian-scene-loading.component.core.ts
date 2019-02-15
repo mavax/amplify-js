@@ -11,7 +11,7 @@
  * and limitations under the License.
  */
 import { Component, Input } from '@angular/core';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 
 const template = `
 <div class={{AmplifyUI.loadingOverlay}}>

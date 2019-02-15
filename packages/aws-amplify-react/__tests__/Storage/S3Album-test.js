@@ -1,9 +1,9 @@
-import Storage from '@aws-amplify/storage';
+import Storage from '@moixa-energy/storage';
 import S3Album from '../../src/Storage/S3Album';
 import S3Text from '../../src/Storage/S3Text';
 import S3Image from '../../src/Storage/S3Image';
 import * as React from 'react';
-import { JS } from '@aws-amplify/core';
+import { JS } from '@moixa-energy/core';
 
 const timespy = jest.spyOn(Date.prototype, 'getTime').mockImplementation(() => {
     return 0;

@@ -15,9 +15,9 @@ import { print } from 'graphql/language/printer';
 import { parse } from 'graphql/language/parser';
 import * as Observable from 'zen-observable';
 import { RestClient as RestClass } from './RestClient';
-import Amplify, { ConsoleLogger as Logger, Credentials } from '@aws-amplify/core';
+import Amplify, { ConsoleLogger as Logger, Credentials } from '@moixa-energy/core';
 import { GraphQLOptions, GraphQLResult } from './types';
-import Cache from '@aws-amplify/cache';
+import Cache from '@moixa-energy/cache';
 import { v4 as uuid } from 'uuid';
 
 const logger = new Logger('API');

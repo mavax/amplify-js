@@ -1,4 +1,4 @@
-jest.mock('@aws-amplify/core/lib/Signer', () => {
+jest.mock('@moixa-energy/core/lib/Signer', () => {
     return {
         default: {
             sign: (request: any, access_info: any, service_info?: any) => {

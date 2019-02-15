@@ -1,4 +1,4 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import * as React from 'react';
 import { Button, Link } from '../../src/Amplify-UI/Amplify-UI-Components-React';
 import RequireNewPassword from '../../src/Auth/RequireNewPassword';

@@ -14,7 +14,7 @@ import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { Logger, XR } from 'aws-amplify';
 import { AmplifyService } from '../../../providers';
 
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 
 const logger = new Logger('SumerianSceneComponentCore');
 

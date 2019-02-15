@@ -98,7 +98,7 @@ export default {
       this._setDefaultState();
 
       if (!this.$Amplify.API || typeof this.$Amplify.API.graphql !== 'function' || typeof this.$Amplify.API.getGraphqlOperationType !== 'function') {
-        throw new Error('No API module found, please ensure @aws-amplify/api is imported');
+        throw new Error('No API module found, please ensure @moixa-energy/api is imported');
       }
 
       const hasValidQuery = query && this.$Amplify.API.getGraphqlOperationType(query) === 'query';

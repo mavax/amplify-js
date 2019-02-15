@@ -33,8 +33,8 @@ import {
     Credentials,
     StorageHelper,
     ICredentials
-} from '@aws-amplify/core';
-import Cache from '@aws-amplify/cache';
+} from '@moixa-energy/core';
+import Cache from '@moixa-energy/cache';
 import { 
     CookieStorage,
     CognitoUserPool,

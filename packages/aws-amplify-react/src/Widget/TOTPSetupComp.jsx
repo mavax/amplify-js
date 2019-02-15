@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 import { Component } from 'react';
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';
 import {
@@ -28,7 +28,7 @@ import {
     Toast
 } from '../Amplify-UI/Amplify-UI-Components-React';
 
-import { totpQrcode } from '@aws-amplify/ui';
+import { totpQrcode } from '@moixa-energy/ui';
 
 const QRCode = require('qrcode.react');
 
@@ -72,7 +72,7 @@ export default class TOTPSetupComp extends Component {
         this.setState({setupMessage: null});
         const user = this.props.authData;
         if (!Auth || typeof Auth.setupTOTP !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         Auth.setupTOTP(user).then((data) => {
@@ -90,7 +90,7 @@ export default class TOTPSetupComp extends Component {
         const user = this.props.authData;
         const { totpCode } = this.inputs;
         if (!Auth || typeof Auth.verifyTotpToken !== 'function' || typeof Auth.setPreferredMFA !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.verifyTotpToken(user, totpCode)
             .then(() => {

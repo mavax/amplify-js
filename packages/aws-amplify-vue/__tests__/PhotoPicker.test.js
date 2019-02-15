@@ -1,7 +1,7 @@
 /* eslint-disable */
 import Vue from 'vue';
 import { shallowMount, mount } from '@vue/test-utils';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import PhotoPicker from '../src/components/storage/PhotoPicker.vue';
 import AmplifyPlugin from '../src/plugins/AmplifyPlugin';
 import * as AmplifyMocks from '../__mocks__/Amplify.mocks';

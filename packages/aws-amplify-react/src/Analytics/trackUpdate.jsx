@@ -13,7 +13,7 @@
 
 import * as React from 'react';
 import { Component } from 'react';
-import Analytics from '@aws-amplify/analytics';
+import Analytics from '@moixa-energy/analytics';
 
 export function trackUpdate(Comp, trackerName) {
     return class extends Component {
@@ -30,7 +30,7 @@ export function trackUpdate(Comp, trackerName) {
                     attributes
                 });
             } else {
-                throw new Error('No Analytics module found, please ensure @aws-amplify/analytics is imported');
+                throw new Error('No Analytics module found, please ensure @moixa-energy/analytics is imported');
             }   
         }
 

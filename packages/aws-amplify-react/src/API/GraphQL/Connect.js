@@ -1,6 +1,6 @@
 import regeneratorRuntime from 'regenerator-runtime/runtime';
 import { Component } from 'react';
-import API from '@aws-amplify/api';
+import API from '@moixa-energy/api';
 
 
 
@@ -46,7 +46,7 @@ export default class Connect extends Component {
         let { data, mutation: mutationProp, errors } = this.getDefaultState();
 
         if (!API || typeof API.graphql !== 'function' || typeof API.getGraphqlOperationType !== 'function') {
-            throw new Error('No API module found, please ensure @aws-amplify/api is imported');
+            throw new Error('No API module found, please ensure @moixa-energy/api is imported');
         }
 
         const hasValidQuery = query && API.getGraphqlOperationType(query) === 'query';

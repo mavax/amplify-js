@@ -11,11 +11,11 @@
  * and limitations under the License.
  */
 import * as React from 'react';
-import XR from '@aws-amplify/xr';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import XR from '@moixa-energy/xr';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 import IconButton from './IconButton';
 import Loading from './Loading';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 
 const SCENE_CONTAINER_DOM_ID = 'scene-container-dom-id';
 const SCENE_DOM_ID = 'scene-dom-id';

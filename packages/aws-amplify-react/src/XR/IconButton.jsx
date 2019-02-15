@@ -12,7 +12,7 @@
  */
 import * as React from 'react';
 import Tooltip from './Tooltip';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 
 const IconButton = (props) => {
   let buttonIcon;

@@ -12,7 +12,7 @@
  */
 import PubSubClass from './PubSub';
 
-import Amplify, { ConsoleLogger as Logger } from '@aws-amplify/core';
+import Amplify, { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 const logger = new Logger('PubSub');
 

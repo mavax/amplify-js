@@ -13,7 +13,7 @@
 
 import { pageViewTrackOpts } from '../types';
 import MethodEmbed from '../utils/MethodEmbed';
-import { ConsoleLogger as Logger, JS } from '@aws-amplify/core';
+import { ConsoleLogger as Logger, JS } from '@moixa-energy/core';
 
 const logger = new Logger('PageViewTracker');
 const PREV_URL_KEY = 'aws-amplify-analytics-prevUrl';

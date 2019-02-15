@@ -13,7 +13,7 @@
 
 import * as React from 'react';
 import { Component } from 'react';
-import Analytics from '@aws-amplify/analytics';
+import Analytics from '@moixa-energy/analytics';
 
 const Default_Track_Events = [
     'componentDidMount',
@@ -42,7 +42,7 @@ export function trackLifecycle(Comp, trackerName, events=Default_Track_Events) {
                         attributes: { event }
                     });
                 } else {
-                    throw new Error('No Analytics module found, please ensure @aws-amplify/analytics is imported');
+                    throw new Error('No Analytics module found, please ensure @moixa-energy/analytics is imported');
                 }
                 
             }

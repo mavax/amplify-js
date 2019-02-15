@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 import { Component } from 'react';
-import Amplify, { I18n, ConsoleLogger as Logger, Hub } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import Amplify, { I18n, ConsoleLogger as Logger, Hub } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 import Greetings from './Greetings';
 import SignIn from './SignIn';
 import ConfirmSignIn from './ConfirmSignIn';
@@ -69,7 +69,7 @@ export default class Authenticator extends Component {
     }
     checkUser() {
         if (!Auth || typeof Auth.currentAuthenticatedUser !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         return Auth.currentAuthenticatedUser()
             .then(user => {

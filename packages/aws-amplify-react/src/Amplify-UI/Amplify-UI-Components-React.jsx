@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { JS } from '@aws-amplify/core';
+import { JS } from '@moixa-energy/core';
 
-import "@aws-amplify/ui/dist/style.css";
-import * as AmplifyUI from '@aws-amplify/ui';
+import "@moixa-energy/ui/dist/style.css";
+import * as AmplifyUI from '@moixa-energy/ui';
 
 import AmplifyTheme from './Amplify-UI-Theme';
 

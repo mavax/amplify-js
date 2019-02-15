@@ -13,7 +13,7 @@
 import { Component } from '@angular/core';
 import { SumerianSceneComponentCore } from './sumerian-scene.component.core';
 import { AmplifyService } from '../../../providers';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 
 const template = `
 <div id="sumerian-scene-container" [ngClass]="amplifyUI.sumerianSceneContainer">

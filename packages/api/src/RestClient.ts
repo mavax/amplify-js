@@ -11,7 +11,7 @@
  * and limitations under the License.
  */
 
-import { ConsoleLogger as Logger, Signer, Platform, Credentials } from '@aws-amplify/core';
+import { ConsoleLogger as Logger, Signer, Platform, Credentials } from '@moixa-energy/core';
 
 import { RestClientOptions, AWSCredentials, apiOptions } from './types';
 import axios from 'axios';

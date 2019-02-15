@@ -13,7 +13,7 @@
 
  // the session tracker for react native
 
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 import { SessionTrackOpts } from '../types';
 import { AppState } from 'react-native'; 
 

@@ -14,8 +14,8 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
-import Storage from '@aws-amplify/storage';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
+import Storage from '@moixa-energy/storage';
 
 import AmplifyTheme from '../AmplifyTheme';
 import TextPicker from '../Widget/TextPicker';
@@ -41,7 +41,7 @@ export default class S3Text extends Component {
 
     getText(key, level, track, identityId) {
         if (!Storage || typeof Storage.get !== 'function') {
-            throw new Error('No Storage module found, please ensure @aws-amplify/storage is imported');
+            throw new Error('No Storage module found, please ensure @moixa-energy/storage is imported');
         }
         Storage.get(key, { download: true, level: level? level : 'public', track, identityId })
             .then(data => {
@@ -69,7 +69,7 @@ export default class S3Text extends Component {
         if (body) {
             const type = contentType || 'text/*';
             if (!Storage || typeof Storage.put !== 'function') {
-                throw new Error('No Storage module found, please ensure @aws-amplify/storage is imported');
+                throw new Error('No Storage module found, please ensure @moixa-energy/storage is imported');
             }
             const ret = Storage.put(key, body, {
                 contentType: type,
@@ -104,7 +104,7 @@ export default class S3Text extends Component {
         const { file, name, size, type } = data;
         const key = textKey || (path + calcKey(data, fileToKey));
         if (!Storage || typeof Storage.put !== 'function') {
-            throw new Error('No Storage module found, please ensure @aws-amplify/storage is imported');
+            throw new Error('No Storage module found, please ensure @moixa-energy/storage is imported');
         }
         Storage.put(key, file, {
             level: level? level: 'public',

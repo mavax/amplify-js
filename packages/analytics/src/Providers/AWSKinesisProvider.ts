@@ -11,9 +11,9 @@
  * and limitations under the License.
  */
 
-import { ConsoleLogger as Logger, Credentials} from '@aws-amplify/core';
+import { ConsoleLogger as Logger, Credentials} from '@moixa-energy/core';
 import * as Kinesis from 'aws-sdk/clients/kinesis';
-import Cache from '@aws-amplify/cache';
+import Cache from '@moixa-energy/cache';
 import { AnalyticsProvider } from '../types';
 
 const logger = new Logger('AWSKineisProvider');

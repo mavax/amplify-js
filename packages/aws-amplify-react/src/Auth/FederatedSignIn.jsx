@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import { JS, I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { JS, I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';
 import {
@@ -82,7 +82,7 @@ export class FederatedButtons extends Component {
 
         const federated = this.props.federated || {};
         if (!Auth || typeof Auth.configure !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         const { oauth={} } = Auth.configure();
@@ -130,7 +130,7 @@ export default class FederatedSignIn extends Component {
         const { authState, onStateChange } = this.props;
         const federated = this.props.federated || {};
         if (!Auth || typeof Auth.configure !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         
          const { oauth={} } = Auth.configure();

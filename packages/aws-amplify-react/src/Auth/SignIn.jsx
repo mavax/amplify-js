@@ -12,8 +12,8 @@
  */
 
 import * as React from 'react';
-import { I18n, JS, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, JS, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AuthPiece from './AuthPiece';
 import { FederatedButtons } from './FederatedSignIn';
@@ -68,7 +68,7 @@ export default class SignIn extends AuthPiece {
 
     checkContact(user) {
         if (!Auth || typeof Auth.verifiedContact !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.verifiedContact(user)
             .then(data => {
@@ -84,7 +84,7 @@ export default class SignIn extends AuthPiece {
     async signIn() {
         const { username, password } = this.inputs;
         if (!Auth || typeof Auth.signIn !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         this.setState({loading: true});
         try {

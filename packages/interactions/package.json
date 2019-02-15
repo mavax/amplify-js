@@ -1,5 +1,5 @@
 {
-  "name": "@aws-amplify/interactions",
+  "name": "@moixa-energy/interactions",
   "version": "1.0.26-unstable.0",
   "description": "Interactions category of aws-amplify",
   "main": "./lib/index.js",
@@ -50,7 +50,7 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@aws-amplify/core": "^1.0.23-unstable.0"
+    "@moixa-energy/core": "^1.0.23-unstable.0"
   },
   "jest": {
     "transform": {

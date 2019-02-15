@@ -13,7 +13,7 @@
 
 import { delegate } from '../vendor/dom-utils';
 import { EventTrackOpts } from '../types';
-import { ConsoleLogger as Logger, JS } from '@aws-amplify/core';
+import { ConsoleLogger as Logger, JS } from '@moixa-energy/core';
 
 const logger = new Logger('EventTracker');
 

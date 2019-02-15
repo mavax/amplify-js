@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 
-import { I18n, JS, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, JS, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AuthPiece from './AuthPiece';
 import AmplifyTheme from '../AmplifyTheme';
@@ -43,7 +43,7 @@ export default class RequireNewPassword extends AuthPiece {
 
     checkContact(user) {
         if (!Auth || typeof Auth.verifiedContact !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.verifiedContact(user)
             .then(data => {
@@ -63,7 +63,7 @@ export default class RequireNewPassword extends AuthPiece {
         const attrs = objectWithProperties(this.inputs, requiredAttributes);
 
         if (!Auth || typeof Auth.completeNewPassword !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.completeNewPassword(user, password, attrs)
             .then(user => {

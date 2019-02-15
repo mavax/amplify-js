@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import AmplifyEventBus from '../../events/AmplifyEventBus';
 
 export default {

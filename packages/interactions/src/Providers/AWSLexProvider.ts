@@ -14,7 +14,7 @@
 import { AbstractInteractionsProvider } from './InteractionsProvider';
 import { InteractionsOptions, InteractionsMessage, InteractionsResponse } from '../types';
 import * as LexRuntime from 'aws-sdk/clients/lexruntime';
-import { ConsoleLogger as Logger, AWS, Credentials } from '@aws-amplify/core';
+import { ConsoleLogger as Logger, AWS, Credentials } from '@moixa-energy/core';
 import { registerHelper } from 'handlebars';
 
 const logger = new Logger('AWSLexProvider');

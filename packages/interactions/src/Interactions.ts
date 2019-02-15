@@ -11,7 +11,7 @@
 * and limitations under the License.
 */
 import { InteractionsOptions, InteractionsProviders, InteractionsResponse, InteractionsProvider } from './types';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 import { AWSLexProvider } from './Providers';
 const logger = new Logger('Interactions');
 

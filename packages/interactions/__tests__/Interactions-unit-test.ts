@@ -51,7 +51,7 @@ jest.mock('aws-sdk/clients/lexruntime', () => {
 import Interactions from '../src/Interactions';
 import { findInterfacesAddedToObjectTypes } from 'graphql/utilities/findBreakingChanges';
 import { AWSLexProvider, AbstractInteractionsProvider } from '../src/Providers';
-import { Credentials } from '@aws-amplify/core';
+import { Credentials } from '@moixa-energy/core';
 
 class AWSLexProvider2 extends AWSLexProvider {
     getProviderName() { return 'AWSLexProvider2'; }

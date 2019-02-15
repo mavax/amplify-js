@@ -14,7 +14,7 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';
 import { Button, PhotoPickerButton } from '../Amplify-UI/Amplify-UI-Components-React';
 

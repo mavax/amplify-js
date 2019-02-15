@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **@aws-amplify/auth:** add the option to pass validation data when signing in ([13093e9](https://github.com/aws/aws-amplify/commit/13093e9))
+* **@moixa-energy/auth:** add the option to pass validation data when signing in ([13093e9](https://github.com/aws/aws-amplify/commit/13093e9))
 
 
 

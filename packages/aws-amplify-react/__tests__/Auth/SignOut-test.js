@@ -1,10 +1,10 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import SignOut from '../../src/Auth/SignOut';
 import * as React from 'react';
 import AmplifyTheme from '../../src/AmplifyTheme';
 import AuthPiece from '../../src/Auth/AuthPiece';
 import { Header, Footer, InputRow, ButtonRow } from '../../src/AmplifyUI';
-import { Hub } from '@aws-amplify/core';
+import { Hub } from '@moixa-energy/core';
 import * as AmplifyMocks from '../../__mocks__/amplifyMock';
 
 const acceptedStates = [

@@ -12,8 +12,8 @@
  */
 
 import * as React from 'react';
-import { JS, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { JS, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 import AuthPiece from './AuthPiece';
 import TOTPSetupComp from '../Widget/TOTPSetupComp';
 
@@ -30,7 +30,7 @@ export default class TOTPSetup extends AuthPiece {
 
     checkContact(user) {
         if (!Auth || typeof Auth.verifiedContact !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.verifiedContact(user)
             .then(data => {

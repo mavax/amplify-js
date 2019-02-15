@@ -12,8 +12,8 @@
  */
 
 import * as React from 'react';
-import { I18n, ConsoleLogger as Logger, Hub } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger, Hub } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AuthPiece from './AuthPiece';
 import { NavButton } from '../Amplify-UI/Amplify-UI-Components-React';
@@ -112,7 +112,7 @@ export default class SignOut extends AuthPiece {
         }
 
         if (!Auth || typeof Auth.signOut !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.signOut()
             .then(() => {

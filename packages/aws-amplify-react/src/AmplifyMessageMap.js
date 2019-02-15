@@ -11,7 +11,7 @@
  * and limitations under the License.
  */
 
-import { I18n } from '@aws-amplify/core';
+import { I18n } from '@moixa-energy/core';
 
 export const MapEntries = [
     ['User does not exist', /user.*not.*exist/i],

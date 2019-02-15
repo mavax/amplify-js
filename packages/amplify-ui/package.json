@@ -1,5 +1,5 @@
 {
-  "name": "@aws-amplify/ui",
+  "name": "@moixa-energy/ui",
   "version": "1.0.16-unstable.0",
   "main": "dist/aws-amplify-ui.js",
   "publishConfig": {

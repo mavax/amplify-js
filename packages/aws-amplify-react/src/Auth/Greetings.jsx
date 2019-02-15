@@ -12,8 +12,8 @@
  */
 
 import * as React from 'react';
-import { I18n, ConsoleLogger as Logger, Hub } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger, Hub } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 import AuthPiece from './AuthPiece';
 import { NavBar, Nav, NavRight, NavItem, NavButton } from '../Amplify-UI/Amplify-UI-Components-React';
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';

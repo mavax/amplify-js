@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AuthPiece from './AuthPiece';
 import {
@@ -170,7 +170,7 @@ export default class SignUp extends AuthPiece {
           return this.error(`The following fields need to be filled out: ${validation.join(', ')}`);
         }
         if (!Auth || typeof Auth.signUp !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         let signup_info = {

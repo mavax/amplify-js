@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AuthPiece from './AuthPiece';
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';
@@ -50,7 +50,7 @@ export default class ForgotPassword extends AuthPiece {
         const { authData={} } = this.props;
         const username = this.inputs.username || authData.username;
         if (!Auth || typeof Auth.forgotPassword !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.forgotPassword(username)
             .then(data => {
@@ -66,7 +66,7 @@ export default class ForgotPassword extends AuthPiece {
         const username = this.inputs.username || authData.username;
         
         if (!Auth || typeof Auth.forgotPasswordSubmit !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         Auth.forgotPasswordSubmit(username, code, password)
             .then(data => {

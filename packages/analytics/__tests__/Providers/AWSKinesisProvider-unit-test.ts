@@ -11,7 +11,7 @@ jest.mock('aws-sdk/clients/kinesis', () => {
     return Kinesis;
 });
 
-import { Pinpoint, AWS, MobileAnalytics, JS, Credentials } from '@aws-amplify/core';
+import { Pinpoint, AWS, MobileAnalytics, JS, Credentials } from '@moixa-energy/core';
 import KinesisProvider from "../../src/Providers/AWSKinesisProvider";
 
 jest.useFakeTimers();

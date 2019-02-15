@@ -13,8 +13,8 @@
 
 import * as React from 'react';
 import { Component } from 'react';
-import { I18n, ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import { I18n, ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';
 import {
@@ -75,7 +75,7 @@ export default class SelectMFAType extends Component {
         const user = this.props.authData;
 
         if (!Auth || typeof Auth.setPreferredMFA !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
 
         Auth.setPreferredMFA(user, mfaMethod).then((data) => {

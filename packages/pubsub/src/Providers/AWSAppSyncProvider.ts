@@ -12,7 +12,7 @@
  */
 import { Client } from 'paho-mqtt';
 import * as Observable from 'zen-observable';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 import { MqttOverWSProvider } from './MqttOverWSProvider';
 

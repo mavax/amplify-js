@@ -1,7 +1,7 @@
 import PubSub from '../src/PubSub';
 import { MqttOverWSProvider, AWSIoTProvider, mqttTopicMatch } from '../src/Providers';
 // import Amplify from '../../src/';
-import { Credentials } from '@aws-amplify/core';
+import { Credentials } from '@moixa-energy/core';
 import * as Paho from '../src/vendor/paho-mqtt';
 
 const pahoClientMock = jest.fn().mockImplementation((host, port, path, clientId) => {

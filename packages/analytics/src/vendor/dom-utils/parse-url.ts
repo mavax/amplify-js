@@ -2,7 +2,7 @@
  * Copyright (c) 2017, Philip Walton <philip@philipwalton.com>
  */
 
-import { JS } from '@aws-amplify/core';
+import { JS } from '@moixa-energy/core';
 
 const HTTP_PORT = '80';
 const HTTPS_PORT = '443';

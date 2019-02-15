@@ -62,7 +62,7 @@
 import Vue from 'vue';
 import Vue2Filters from 'vue2-filters'
 import AmplifyEventBus from '../../events/AmplifyEventBus';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
 import countries from '../../assets/countries';
 
 Vue.use(Vue2Filters)

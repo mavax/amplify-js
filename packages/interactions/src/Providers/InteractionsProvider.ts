@@ -13,7 +13,7 @@
 
 import { InteractionsProvider, InteractionsOptions, InteractionsResponse } from '../types';
 
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 const logger = new Logger('AbstractInteractionsProvider');
 

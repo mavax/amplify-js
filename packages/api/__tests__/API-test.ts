@@ -5,8 +5,8 @@ import API, { graphqlOperation } from '../src/API';
 import { RestClient } from '../src/RestClient';
 import { print } from 'graphql/language/printer';
 import { parse } from 'graphql/language/parser';
-import { Signer, Credentials } from '@aws-amplify/core';
-import Cache from '@aws-amplify/cache';
+import { Signer, Credentials } from '@moixa-energy/core';
+import Cache from '@moixa-energy/cache';
 
 jest.mock('axios');
 

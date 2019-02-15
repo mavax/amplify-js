@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component } from 'react';
-import Amplify, { ConsoleLogger as Logger } from '@aws-amplify/core';
-import Auth from '@aws-amplify/auth';
+import Amplify, { ConsoleLogger as Logger } from '@moixa-energy/core';
+import Auth from '@moixa-energy/auth';
 
 import AmplifyTheme from '../Amplify-UI/Amplify-UI-Theme';
 
@@ -46,7 +46,7 @@ export default class AuthStateWrapper extends Component {
 
     checkUser() {
         if (!Auth || typeof Auth.currentUser !== 'function') {
-            throw new Error('No Auth module found, please ensure @aws-amplify/auth is imported');
+            throw new Error('No Auth module found, please ensure @moixa-energy/auth is imported');
         }
         return Auth.currentUser()
             .then(user => {

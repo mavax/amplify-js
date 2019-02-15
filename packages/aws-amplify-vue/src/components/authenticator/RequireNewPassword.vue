@@ -46,7 +46,7 @@
 </template>
  <script>
 import AmplifyEventBus from '../../events/AmplifyEventBus';
-import * as AmplifyUI from '@aws-amplify/ui';
+import * as AmplifyUI from '@moixa-energy/ui';
  export default {
   name: 'RequireNewPassword',
   props: ['requireNewPasswordConfig'],

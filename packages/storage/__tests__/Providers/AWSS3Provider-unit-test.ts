@@ -11,7 +11,7 @@
  * and limitations under the License.
  */
 import  StorageProvider  from '../../src/Providers/AWSS3Provider';
-import { Hub, Credentials } from '@aws-amplify/core';
+import { Hub, Credentials } from '@moixa-energy/core';
 import * as S3 from 'aws-sdk/clients/s3';
 
 

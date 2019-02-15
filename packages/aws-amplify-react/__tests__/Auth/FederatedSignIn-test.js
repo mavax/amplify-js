@@ -1,4 +1,4 @@
-import Auth from '@aws-amplify/auth';
+import Auth from '@moixa-energy/auth';
 import * as React from 'react';
 import FederatedSignIn, { FederatedButtons } from '../../src/Auth/FederatedSignIn';
 

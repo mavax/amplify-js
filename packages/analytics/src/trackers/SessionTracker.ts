@@ -13,7 +13,7 @@
 
 // the session tracker for web
 
-import { ConsoleLogger as Logger, Hub, JS } from '@aws-amplify/core';
+import { ConsoleLogger as Logger, Hub, JS } from '@moixa-energy/core';
 import { SessionTrackOpts } from '../types';
 
 const logger = new Logger('SessionTracker');

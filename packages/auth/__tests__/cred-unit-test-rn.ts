@@ -121,7 +121,7 @@ jest.mock('amazon-cognito-identity-js/lib/CognitoUser', () => {
     return CognitoUser;
 });
 
-jest.mock('@aws-amplify/core', () => {
+jest.mock('@moixa-energy/core', () => {
     return {
         Platform: {
             isReactNative: true
@@ -131,10 +131,10 @@ jest.mock('@aws-amplify/core', () => {
 
 import { AuthOptions, SignUpParams } from '../src/types';
 import Auth from '../src';
-import Cache from '@aws-amplify/cache';
+import Cache from '@moixa-energy/cache';
 import { CognitoUserPool, CognitoUser, CognitoUserSession, CognitoIdToken, CognitoAccessToken } from 'amazon-cognito-identity-js';
 import { CognitoIdentityCredentials } from 'aws-sdk';
-import { Credentials } from '@aws-amplify/core';
+import { Credentials } from '@moixa-energy/core';
 
 const authOptions : AuthOptions = {
     userPoolId: "awsUserPoolsId",

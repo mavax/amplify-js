@@ -4,107 +4,107 @@ All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 <a name="1.2.11-unstable.2"></a>
-## [1.2.11-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.11-unstable.1...@aws-amplify/analytics@1.2.11-unstable.2) (2019-01-22)
+## [1.2.11-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.11-unstable.1...@moixa-energy/analytics@1.2.11-unstable.2) (2019-01-22)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.11-unstable.1"></a>
-## [1.2.11-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.11-unstable.0...@aws-amplify/analytics@1.2.11-unstable.1) (2019-01-10)
+## [1.2.11-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.11-unstable.0...@moixa-energy/analytics@1.2.11-unstable.1) (2019-01-10)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.11-unstable.0"></a>
-## [1.2.11-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.10...@aws-amplify/analytics@1.2.11-unstable.0) (2019-01-10)
+## [1.2.11-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.10...@moixa-energy/analytics@1.2.11-unstable.0) (2019-01-10)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.10"></a>
-## [1.2.10](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.10-unstable.0...@aws-amplify/analytics@1.2.10) (2019-01-10)
+## [1.2.10](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.10-unstable.0...@moixa-energy/analytics@1.2.10) (2019-01-10)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** fix the event name of session start/stop ([12f4e6f](https://github.com/aws/aws-amplify/commit/12f4e6f))
+* **@moixa-energy/analytics:** fix the event name of session start/stop ([12f4e6f](https://github.com/aws/aws-amplify/commit/12f4e6f))
 
 
 
 
 <a name="1.2.10-unstable.0"></a>
-## [1.2.10-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.9...@aws-amplify/analytics@1.2.10-unstable.0) (2018-12-26)
+## [1.2.10-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.9...@moixa-energy/analytics@1.2.10-unstable.0) (2018-12-26)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.9"></a>
-## [1.2.9](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.9-unstable.2...@aws-amplify/analytics@1.2.9) (2018-12-26)
+## [1.2.9](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.9-unstable.2...@moixa-energy/analytics@1.2.9) (2018-12-26)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.9-unstable.2"></a>
-## [1.2.9-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.9-unstable.1...@aws-amplify/analytics@1.2.9-unstable.2) (2018-12-24)
+## [1.2.9-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.9-unstable.1...@moixa-energy/analytics@1.2.9-unstable.2) (2018-12-24)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** unlink user id from endpoint when limit exceeds ([b2de140](https://github.com/aws/aws-amplify/commit/b2de140))
+* **@moixa-energy/analytics:** unlink user id from endpoint when limit exceeds ([b2de140](https://github.com/aws/aws-amplify/commit/b2de140))
 
 
 
 
 <a name="1.2.9-unstable.1"></a>
-## [1.2.9-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.9-unstable.0...@aws-amplify/analytics@1.2.9-unstable.1) (2018-12-24)
+## [1.2.9-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.9-unstable.0...@moixa-energy/analytics@1.2.9-unstable.1) (2018-12-24)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** clear timer when analytics is disabled ([5d1370d](https://github.com/aws/aws-amplify/commit/5d1370d))
+* **@moixa-energy/analytics:** clear timer when analytics is disabled ([5d1370d](https://github.com/aws/aws-amplify/commit/5d1370d))
 
 
 
 
 <a name="1.2.9-unstable.0"></a>
-## [1.2.9-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.8...@aws-amplify/analytics@1.2.9-unstable.0) (2018-12-22)
+## [1.2.9-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.8...@moixa-energy/analytics@1.2.9-unstable.0) (2018-12-22)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.8"></a>
-## [1.2.8](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.8-unstable.3...@aws-amplify/analytics@1.2.8) (2018-12-13)
+## [1.2.8](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.8-unstable.3...@moixa-energy/analytics@1.2.8) (2018-12-13)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.8-unstable.3"></a>
-## [1.2.8-unstable.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.8-unstable.2...@aws-amplify/analytics@1.2.8-unstable.3) (2018-12-13)
+## [1.2.8-unstable.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.8-unstable.2...@moixa-energy/analytics@1.2.8-unstable.3) (2018-12-13)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** fix the type definition ([34daec2](https://github.com/aws/aws-amplify/commit/34daec2))
+* **@moixa-energy/analytics:** fix the type definition ([34daec2](https://github.com/aws/aws-amplify/commit/34daec2))
 
 
 
 
 <a name="1.2.8-unstable.2"></a>
-## [1.2.8-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.8-unstable.1...@aws-amplify/analytics@1.2.8-unstable.2) (2018-12-12)
+## [1.2.8-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.8-unstable.1...@moixa-energy/analytics@1.2.8-unstable.2) (2018-12-12)
 
 
 ### Bug Fixes
@@ -115,299 +115,299 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="1.2.8-unstable.1"></a>
-## [1.2.8-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.8-unstable.0...@aws-amplify/analytics@1.2.8-unstable.1) (2018-12-10)
+## [1.2.8-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.8-unstable.0...@moixa-energy/analytics@1.2.8-unstable.1) (2018-12-10)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** generate endpoint id if not provided ([cca9d2f](https://github.com/aws/aws-amplify/commit/cca9d2f))
+* **@moixa-energy/analytics:** generate endpoint id if not provided ([cca9d2f](https://github.com/aws/aws-amplify/commit/cca9d2f))
 
 
 
 
 <a name="1.2.8-unstable.0"></a>
-## [1.2.8-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7...@aws-amplify/analytics@1.2.8-unstable.0) (2018-12-07)
+## [1.2.8-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7...@moixa-energy/analytics@1.2.8-unstable.0) (2018-12-07)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.7"></a>
-## [1.2.7](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7-unstable.5...@aws-amplify/analytics@1.2.7) (2018-12-03)
+## [1.2.7](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7-unstable.5...@moixa-energy/analytics@1.2.7) (2018-12-03)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.7-unstable.5"></a>
-## [1.2.7-unstable.5](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7-unstable.4...@aws-amplify/analytics@1.2.7-unstable.5) (2018-11-29)
+## [1.2.7-unstable.5](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7-unstable.4...@moixa-energy/analytics@1.2.7-unstable.5) (2018-11-29)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** avoid return statement in the beforeunload function ([2b6e95e](https://github.com/aws/aws-amplify/commit/2b6e95e))
+* **@moixa-energy/analytics:** avoid return statement in the beforeunload function ([2b6e95e](https://github.com/aws/aws-amplify/commit/2b6e95e))
 
 
 
 
 <a name="1.2.7-unstable.4"></a>
-## [1.2.7-unstable.4](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7-unstable.3...@aws-amplify/analytics@1.2.7-unstable.4) (2018-11-27)
+## [1.2.7-unstable.4](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7-unstable.3...@moixa-energy/analytics@1.2.7-unstable.4) (2018-11-27)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.7-unstable.3"></a>
-## [1.2.7-unstable.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7-unstable.2...@aws-amplify/analytics@1.2.7-unstable.3) (2018-11-26)
+## [1.2.7-unstable.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7-unstable.2...@moixa-energy/analytics@1.2.7-unstable.3) (2018-11-26)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.7-unstable.2"></a>
-## [1.2.7-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7-unstable.1...@aws-amplify/analytics@1.2.7-unstable.2) (2018-11-20)
+## [1.2.7-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7-unstable.1...@moixa-energy/analytics@1.2.7-unstable.2) (2018-11-20)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.7-unstable.1"></a>
-## [1.2.7-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.7-unstable.0...@aws-amplify/analytics@1.2.7-unstable.1) (2018-11-19)
+## [1.2.7-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.7-unstable.0...@moixa-energy/analytics@1.2.7-unstable.1) (2018-11-19)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.7-unstable.0"></a>
-## [1.2.7-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.6...@aws-amplify/analytics@1.2.7-unstable.0) (2018-11-15)
+## [1.2.7-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.6...@moixa-energy/analytics@1.2.7-unstable.0) (2018-11-15)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.6"></a>
-## [1.2.6](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.6-unstable.2...@aws-amplify/analytics@1.2.6) (2018-11-12)
+## [1.2.6](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.6-unstable.2...@moixa-energy/analytics@1.2.6) (2018-11-12)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.6-unstable.2"></a>
-## [1.2.6-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.6-unstable.1...@aws-amplify/analytics@1.2.6-unstable.2) (2018-11-09)
+## [1.2.6-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.6-unstable.1...@moixa-energy/analytics@1.2.6-unstable.2) (2018-11-09)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.6-unstable.1"></a>
-## [1.2.6-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.6-unstable.0...@aws-amplify/analytics@1.2.6-unstable.1) (2018-11-06)
+## [1.2.6-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.6-unstable.0...@moixa-energy/analytics@1.2.6-unstable.1) (2018-11-06)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** send session stop events when app turns into background/inactive ([e2e9b66](https://github.com/aws/aws-amplify/commit/e2e9b66))
+* **@moixa-energy/analytics:** send session stop events when app turns into background/inactive ([e2e9b66](https://github.com/aws/aws-amplify/commit/e2e9b66))
 
 
 
 
 <a name="1.2.6-unstable.0"></a>
-## [1.2.6-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.5...@aws-amplify/analytics@1.2.6-unstable.0) (2018-11-06)
+## [1.2.6-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.5...@moixa-energy/analytics@1.2.6-unstable.0) (2018-11-06)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.5"></a>
-## [1.2.5](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.5-unstable.1...@aws-amplify/analytics@1.2.5) (2018-11-01)
+## [1.2.5](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.5-unstable.1...@moixa-energy/analytics@1.2.5) (2018-11-01)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.5-unstable.1"></a>
-## [1.2.5-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.5-unstable.0...@aws-amplify/analytics@1.2.5-unstable.1) (2018-11-01)
+## [1.2.5-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.5-unstable.0...@moixa-energy/analytics@1.2.5-unstable.1) (2018-11-01)
 
 
 ### Features
 
-* **@aws-amplify/analytics:** allow users to fully configure pinpoint endpoint ([55727cf](https://github.com/aws/aws-amplify/commit/55727cf))
+* **@moixa-energy/analytics:** allow users to fully configure pinpoint endpoint ([55727cf](https://github.com/aws/aws-amplify/commit/55727cf))
 
 
 
 
 <a name="1.2.5-unstable.0"></a>
-## [1.2.5-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.4...@aws-amplify/analytics@1.2.5-unstable.0) (2018-10-30)
+## [1.2.5-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.4...@moixa-energy/analytics@1.2.5-unstable.0) (2018-10-30)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.4"></a>
-## [1.2.4](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.4-unstable.4...@aws-amplify/analytics@1.2.4) (2018-10-17)
+## [1.2.4](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.4-unstable.4...@moixa-energy/analytics@1.2.4) (2018-10-17)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.4-unstable.4"></a>
-## [1.2.4-unstable.4](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.4-unstable.3...@aws-amplify/analytics@1.2.4-unstable.4) (2018-10-17)
+## [1.2.4-unstable.4](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.4-unstable.3...@moixa-energy/analytics@1.2.4-unstable.4) (2018-10-17)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.4-unstable.3"></a>
-## [1.2.4-unstable.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.4-unstable.2...@aws-amplify/analytics@1.2.4-unstable.3) (2018-10-16)
+## [1.2.4-unstable.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.4-unstable.2...@moixa-energy/analytics@1.2.4-unstable.3) (2018-10-16)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.4-unstable.2"></a>
-## [1.2.4-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.4-unstable.1...@aws-amplify/analytics@1.2.4-unstable.2) (2018-10-08)
+## [1.2.4-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.4-unstable.1...@moixa-energy/analytics@1.2.4-unstable.2) (2018-10-08)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.4-unstable.1"></a>
-## [1.2.4-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.4-unstable.0...@aws-amplify/analytics@1.2.4-unstable.1) (2018-10-05)
+## [1.2.4-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.4-unstable.0...@moixa-energy/analytics@1.2.4-unstable.1) (2018-10-05)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.4-unstable.0"></a>
-## [1.2.4-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.3-unstable.1...@aws-amplify/analytics@1.2.4-unstable.0) (2018-10-05)
+## [1.2.4-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.3-unstable.1...@moixa-energy/analytics@1.2.4-unstable.0) (2018-10-05)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.3"></a>
-## [1.2.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.3-unstable.1...@aws-amplify/analytics@1.2.3) (2018-10-04)
+## [1.2.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.3-unstable.1...@moixa-energy/analytics@1.2.3) (2018-10-04)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.3-unstable.1"></a>
-## [1.2.3-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.3-unstable.0...@aws-amplify/analytics@1.2.3-unstable.1) (2018-10-03)
+## [1.2.3-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.3-unstable.0...@moixa-energy/analytics@1.2.3-unstable.1) (2018-10-03)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.3-unstable.0"></a>
-## [1.2.3-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.2-unstable.2...@aws-amplify/analytics@1.2.3-unstable.0) (2018-10-03)
+## [1.2.3-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.2-unstable.2...@moixa-energy/analytics@1.2.3-unstable.0) (2018-10-03)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.2"></a>
-## [1.2.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.2-unstable.2...@aws-amplify/analytics@1.2.2) (2018-10-03)
+## [1.2.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.2-unstable.2...@moixa-energy/analytics@1.2.2) (2018-10-03)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.2-unstable.2"></a>
-## [1.2.2-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.2-unstable.1...@aws-amplify/analytics@1.2.2-unstable.2) (2018-10-01)
+## [1.2.2-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.2-unstable.1...@moixa-energy/analytics@1.2.2-unstable.2) (2018-10-01)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.2-unstable.1"></a>
-## [1.2.2-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.2-unstable.0...@aws-amplify/analytics@1.2.2-unstable.1) (2018-10-01)
+## [1.2.2-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.2-unstable.0...@moixa-energy/analytics@1.2.2-unstable.1) (2018-10-01)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.2-unstable.0"></a>
-## [1.2.2-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.1...@aws-amplify/analytics@1.2.2-unstable.0) (2018-09-28)
+## [1.2.2-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.1...@moixa-energy/analytics@1.2.2-unstable.0) (2018-09-28)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.1"></a>
-## [1.2.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.1-unstable.3...@aws-amplify/analytics@1.2.1) (2018-09-27)
+## [1.2.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.1-unstable.3...@moixa-energy/analytics@1.2.1) (2018-09-27)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.1-unstable.3"></a>
-## [1.2.1-unstable.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.1-unstable.2...@aws-amplify/analytics@1.2.1-unstable.3) (2018-09-26)
+## [1.2.1-unstable.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.1-unstable.2...@moixa-energy/analytics@1.2.1-unstable.3) (2018-09-26)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** Auto session tracking after Auth is configured ([ce31f57](https://github.com/aws/aws-amplify/commit/ce31f57))
+* **@moixa-energy/analytics:** Auto session tracking after Auth is configured ([ce31f57](https://github.com/aws/aws-amplify/commit/ce31f57))
 
 
 
 
 <a name="1.2.1-unstable.2"></a>
-## [1.2.1-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.1-unstable.1...@aws-amplify/analytics@1.2.1-unstable.2) (2018-09-26)
+## [1.2.1-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.1-unstable.1...@moixa-energy/analytics@1.2.1-unstable.2) (2018-09-26)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.1-unstable.1"></a>
-## [1.2.1-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.1-unstable.0...@aws-amplify/analytics@1.2.1-unstable.1) (2018-09-25)
+## [1.2.1-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.1-unstable.0...@moixa-energy/analytics@1.2.1-unstable.1) (2018-09-25)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.1-unstable.0"></a>
-## [1.2.1-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.2.0...@aws-amplify/analytics@1.2.1-unstable.0) (2018-09-22)
+## [1.2.1-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.2.0...@moixa-energy/analytics@1.2.1-unstable.0) (2018-09-22)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.2.0"></a>
-# [1.2.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.1.2-unstable.0...@aws-amplify/analytics@1.2.0) (2018-09-21)
+# [1.2.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.1.2-unstable.0...@moixa-energy/analytics@1.2.0) (2018-09-21)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** check the environment before running dom-utils ([4375b21](https://github.com/aws/aws-amplify/commit/4375b21))
+* **@moixa-energy/analytics:** check the environment before running dom-utils ([4375b21](https://github.com/aws/aws-amplify/commit/4375b21))
 
 
 ### Features
@@ -418,34 +418,34 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="1.1.2-unstable.0"></a>
-## [1.1.2-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.1.0...@aws-amplify/analytics@1.1.2-unstable.0) (2018-09-21)
+## [1.1.2-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.1.0...@moixa-energy/analytics@1.1.2-unstable.0) (2018-09-21)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.1.1"></a>
-## [1.1.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.1.0...@aws-amplify/analytics@1.1.1) (2018-09-21)
+## [1.1.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.1.0...@moixa-energy/analytics@1.1.1) (2018-09-21)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.1.0"></a>
-# [1.1.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.9...@aws-amplify/analytics@1.1.0) (2018-09-17)
+# [1.1.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.9...@moixa-energy/analytics@1.1.0) (2018-09-17)
 
 
 ### Features
 
-* **@aws-amplify/analytics:** Analytics auto tracking ([585edf2](https://github.com/aws/aws-amplify/commit/585edf2))
+* **@moixa-energy/analytics:** Analytics auto tracking ([585edf2](https://github.com/aws/aws-amplify/commit/585edf2))
 
 
 
 
 <a name="1.0.9"></a>
-## [1.0.9](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.8...@aws-amplify/analytics@1.0.9) (2018-09-12)
+## [1.0.9](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.8...@moixa-energy/analytics@1.0.9) (2018-09-12)
 
 
 ### Bug Fixes
@@ -456,58 +456,58 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="1.0.8"></a>
-## [1.0.8](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.7...@aws-amplify/analytics@1.0.8) (2018-09-09)
+## [1.0.8](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.7...@moixa-energy/analytics@1.0.8) (2018-09-09)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.8-unstable.1"></a>
-## [1.0.8-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.7...@aws-amplify/analytics@1.0.8-unstable.1) (2018-08-30)
+## [1.0.8-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.7...@moixa-energy/analytics@1.0.8-unstable.1) (2018-08-30)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.7"></a>
-## [1.0.7](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.6-unstable.3...@aws-amplify/analytics@1.0.7) (2018-08-28)
+## [1.0.7](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.6-unstable.3...@moixa-energy/analytics@1.0.7) (2018-08-28)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.6-unstable.3"></a>
-## [1.0.6-unstable.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.6-unstable.2...@aws-amplify/analytics@1.0.6-unstable.3) (2018-08-27)
+## [1.0.6-unstable.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.6-unstable.2...@moixa-energy/analytics@1.0.6-unstable.3) (2018-08-27)
 
 
 ### Bug Fixes
 
-* **@aws-amplify/analytics:** abort recording events when lacking of application id or region ([b2b631b](https://github.com/aws/aws-amplify/commit/b2b631b))
+* **@moixa-energy/analytics:** abort recording events when lacking of application id or region ([b2b631b](https://github.com/aws/aws-amplify/commit/b2b631b))
 
 
 
 
 <a name="1.0.6-unstable.2"></a>
-## [1.0.6-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.6-unstable.1...@aws-amplify/analytics@1.0.6-unstable.2) (2018-08-21)
+## [1.0.6-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.6-unstable.1...@moixa-energy/analytics@1.0.6-unstable.2) (2018-08-21)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.6-unstable.1"></a>
-## [1.0.6-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.6-unstable.0...@aws-amplify/analytics@1.0.6-unstable.1) (2018-08-20)
+## [1.0.6-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.6-unstable.0...@moixa-energy/analytics@1.0.6-unstable.1) (2018-08-20)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.6-unstable.0"></a>
-## [1.0.6-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.5...@aws-amplify/analytics@1.0.6-unstable.0) (2018-08-19)
+## [1.0.6-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.5...@moixa-energy/analytics@1.0.6-unstable.0) (2018-08-19)
 
 
 ### Bug Fixes
@@ -518,100 +518,100 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 <a name="1.0.5"></a>
-## [1.0.5](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.5-unstable.0...@aws-amplify/analytics@1.0.5) (2018-08-14)
+## [1.0.5](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.5-unstable.0...@moixa-energy/analytics@1.0.5) (2018-08-14)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.5-unstable.0"></a>
-## [1.0.5-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.4...@aws-amplify/analytics@1.0.5-unstable.0) (2018-08-09)
+## [1.0.5-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.4...@moixa-energy/analytics@1.0.5-unstable.0) (2018-08-09)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.4"></a>
-## [1.0.4](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.3-unstable.1...@aws-amplify/analytics@1.0.4) (2018-08-06)
+## [1.0.4](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.3-unstable.1...@moixa-energy/analytics@1.0.4) (2018-08-06)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.3-unstable.1"></a>
-## [1.0.3-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.3...@aws-amplify/analytics@1.0.3-unstable.1) (2018-08-06)
+## [1.0.3-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.3...@moixa-energy/analytics@1.0.3-unstable.1) (2018-08-06)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.3"></a>
-## [1.0.3](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.3-unstable.0...@aws-amplify/analytics@1.0.3) (2018-07-28)
+## [1.0.3](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.3-unstable.0...@moixa-energy/analytics@1.0.3) (2018-07-28)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.3-unstable.0"></a>
-## [1.0.3-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.2...@aws-amplify/analytics@1.0.3-unstable.0) (2018-07-26)
+## [1.0.3-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.2...@moixa-energy/analytics@1.0.3-unstable.0) (2018-07-26)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.2"></a>
-## [1.0.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.2-unstable.0...@aws-amplify/analytics@1.0.2) (2018-07-19)
+## [1.0.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.2-unstable.0...@moixa-energy/analytics@1.0.2) (2018-07-19)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.2-unstable.0"></a>
-## [1.0.2-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.1...@aws-amplify/analytics@1.0.2-unstable.0) (2018-07-19)
+## [1.0.2-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.1...@moixa-energy/analytics@1.0.2-unstable.0) (2018-07-19)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.1"></a>
-## [1.0.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.1-unstable.2...@aws-amplify/analytics@1.0.1) (2018-07-18)
+## [1.0.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.1-unstable.2...@moixa-energy/analytics@1.0.1) (2018-07-18)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.1-unstable.2"></a>
-## [1.0.1-unstable.2](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.1-unstable.1...@aws-amplify/analytics@1.0.1-unstable.2) (2018-07-18)
+## [1.0.1-unstable.2](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.1-unstable.1...@moixa-energy/analytics@1.0.1-unstable.2) (2018-07-18)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.1-unstable.1"></a>
-## [1.0.1-unstable.1](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.1...@aws-amplify/analytics@1.0.1-unstable.1) (2018-07-18)
+## [1.0.1-unstable.1](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.1...@moixa-energy/analytics@1.0.1-unstable.1) (2018-07-18)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="1.0.1-unstable.0"></a>
-## [1.0.1-unstable.0](https://github.com/aws/aws-amplify/compare/@aws-amplify/analytics@1.0.1...@aws-amplify/analytics@1.0.1-unstable.0) (2018-07-18)
+## [1.0.1-unstable.0](https://github.com/aws/aws-amplify/compare/@moixa-energy/analytics@1.0.1...@moixa-energy/analytics@1.0.1-unstable.0) (2018-07-18)
 
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics
 
 <a name="0.1.1-unstable.0"></a>
 ## 0.1.1-unstable.0 (2018-06-27)
@@ -619,4 +619,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-**Note:** Version bump only for package @aws-amplify/analytics
+**Note:** Version bump only for package @moixa-energy/analytics

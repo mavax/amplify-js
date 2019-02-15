@@ -15,7 +15,7 @@ import {
     Hub,
     Credentials,
     Parser
-} from '@aws-amplify/core';
+} from '@moixa-energy/core';
 import * as S3 from 'aws-sdk/clients/s3';
 import { StorageOptions, StorageProvider } from '../types';
 

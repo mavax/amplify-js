@@ -1,5 +1,5 @@
-import Auth from '@aws-amplify/auth';
-import { Hub } from '@aws-amplify/core';
+import Auth from '@moixa-energy/auth';
+import { Hub } from '@moixa-energy/core';
 import Greetings from '../../src/Auth/Greetings';
 import * as React from 'react';
 import AmplifyTheme from '../../src/AmplifyTheme';

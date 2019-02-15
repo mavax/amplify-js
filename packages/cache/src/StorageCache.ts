@@ -19,7 +19,7 @@ import {
 } from './Utils';
 
 import { CacheConfig, CacheItem, CacheItemOptions } from './types';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 const logger = new Logger('StorageCache');
 

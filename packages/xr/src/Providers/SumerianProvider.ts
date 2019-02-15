@@ -10,7 +10,7 @@
  * CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions
  * and limitations under the License.
  */
-import { ConsoleLogger as Logger, Signer, Credentials, Constants } from '@aws-amplify/core';
+import { ConsoleLogger as Logger, Signer, Credentials, Constants } from '@moixa-energy/core';
 
 import { AbstractXRProvider } from './XRProvider';
 import { ProviderOptions, SceneOptions } from '../types';

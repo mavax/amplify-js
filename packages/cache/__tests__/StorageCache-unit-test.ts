@@ -1,7 +1,7 @@
 import { CacheConfig } from '../src/types/Cache';
 import StorageCache from '../src/StorageCache';
 import { defaultConfig } from '../src/Utils';
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 const config: CacheConfig = {
     keyPrefix: 'aws-amplify#$#',

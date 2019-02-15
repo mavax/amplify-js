@@ -1,6 +1,6 @@
 import * as React from 'react';
 import SumerianScene from '../../src/XR/SumerianScene';
-import XR from '@aws-amplify/xr';
+import XR from '@moixa-energy/xr';
 
 const sceneConfig = {};
 XR.configure({

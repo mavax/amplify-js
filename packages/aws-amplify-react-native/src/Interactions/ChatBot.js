@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { View, TextInput, Text, KeyboardAvoidingView, ScrollView } from "react-native";
-import Interactions from '@aws-amplify/interactions';
+import Interactions from '@moixa-energy/interactions';
 import { I18n } from "aws-amplify";
 import { AmplifyButton } from "../AmplifyUI";
-import { ConsoleLogger as Logger } from '@aws-amplify/core';
+import { ConsoleLogger as Logger } from '@moixa-energy/core';
 
 var Voice;
 var RNFS;

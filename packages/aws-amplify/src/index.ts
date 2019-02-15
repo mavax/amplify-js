@@ -15,15 +15,15 @@ import Analytics, {
     AnalyticsClass, 
     AnalyticsProvider, 
     AWSPinpointProvider, 
-    AWSKinesisProvider } from '@aws-amplify/analytics';
-import Auth, { AuthClass } from '@aws-amplify/auth';
-import Storage, { StorageClass } from '@aws-amplify/storage';
-import API, { APIClass, graphqlOperation } from '@aws-amplify/api';
-import PubSub, { PubSubClass } from '@aws-amplify/pubsub';
-import Cache from '@aws-amplify/cache';
-import Interactions, { InteractionsClass } from '@aws-amplify/interactions';
-import UI from '@aws-amplify/ui';
-import XR, { XRClass } from '@aws-amplify/xr';
+    AWSKinesisProvider } from '@moixa-energy/analytics';
+import Auth, { AuthClass } from '@moixa-energy/auth';
+import Storage, { StorageClass } from '@moixa-energy/storage';
+import API, { APIClass, graphqlOperation } from '@moixa-energy/api';
+import PubSub, { PubSubClass } from '@moixa-energy/pubsub';
+import Cache from '@moixa-energy/cache';
+import Interactions, { InteractionsClass } from '@moixa-energy/interactions';
+import UI from '@moixa-energy/ui';
+import XR, { XRClass } from '@moixa-energy/xr';
 import Amplify, {
     ConsoleLogger as Logger,
     Hub,
@@ -32,7 +32,7 @@ import Amplify, {
     Signer,
     I18n,
     ServiceWorker
-} from '@aws-amplify/core';
+} from '@moixa-energy/core';
 
 export default Amplify;
 
